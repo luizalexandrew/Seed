@@ -1,11 +1,12 @@
 #include <iostream>
 #include <stdio.h>
+#include <math.h>
 
 using namespace std;
 
-int main(){
-	int raio;
-	cin >> raio;
-	double resultado = ((4.0/3)*3.14159)*(raio*raio*raio);
-	printf("VOLUME = %.3f\n", resultado);
+int main(){    
+    int a;    
+    cin >> a;    
+    printf("VOLUME = %.3f\n", (4.0/3.0)*3.14159*pow(a,3));
+    return 0;
 }
