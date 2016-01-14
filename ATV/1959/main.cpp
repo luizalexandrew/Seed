@@ -4,8 +4,10 @@
 using namespace std;
 
 int main(){
-	int n,l;
+	long long n,l;
 	cin >> n;
-	cin >> l;	
-	cout << n*l << endl;	
+	cin >> l;
+	cout << n*l << endl;
+	
+	
 }
